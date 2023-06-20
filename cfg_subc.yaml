@@ -1,0 +1,30 @@
+# model parameters
+n_cls: 2
+n_ch: 2
+n_filters: 16
+fold_base: data/class_fold
+base_out: prova
+
+# input sampling
+ps: [80, 72, 55]
+center: [98, 129, 78]
+roi:  False
+mask: False
+th: 0.2
+prob: 0.5
+
+# training parameters
+lr: 0.00001
+ne: 200
+patience: 7
+bs: 2
+bs_mul: 1
+nptch1: 3
+nptch2: 1
+device: cuda
+ndims: 3
+weights: [1., 1.5]
+
+# experiment params
+n_folds: 7
+external: False # data/extarnal_data.csv
