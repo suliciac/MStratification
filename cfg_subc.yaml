@@ -19,7 +19,7 @@ ne: 200
 patience: 7
 bs: 2
 bs_mul: 1
-nptch1: 3
+nptch1: 2
 nptch2: 1
 device: cuda
 ndims: 3
